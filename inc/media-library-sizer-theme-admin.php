@@ -95,8 +95,8 @@ function media_library_sizer_register_admin_options()
             'name'        => 'media_library_sizer_styles_radio',
             'value'       => (!isset( get_option('media_library_sizer_options')['media_library_sizer_styles_radio']))
                                 ? 0 : get_option('media_library_sizer_options')['media_library_sizer_styles_radio'],
-	    'checked' => (!isset( get_option('media_library_sizer_options')['media_library_sizer_styles_radio']))
-                            ? '' : 'checked',
+	    'checked' =>  ( 1 == ( get_option('media_library_sizer_options')['media_library_sizer_styles_radio']) )
+                            ? 'checked' : '',
             'description' => esc_html__( 'Check to use styles. Uncheck to disable.', 'media-library-sizer' ),
             'tip'         => esc_attr__( 'Default is OFF. Check to continue using styles. Only effects admin pages.', 'media-library-sizer' )  
         )
@@ -114,8 +114,8 @@ function media_library_sizer_register_admin_options()
             'name'        => 'media_library_sizer_debug_radio',
             'value'       => (!isset( get_option('media_library_sizer_options')['media_library_sizer_debug_radio']))
                                 ? 0 : get_option('media_library_sizer_options')['media_library_sizer_debug_radio'],
-            'checked'     => (!isset( get_option('media_library_sizer_options')['media_library_sizer_debug_radio']))
-                                ? '' : 'checked',
+            'checked'     => ( 1 == ( get_option('media_library_sizer_options')['media_library_sizer_debug_radio']) )
+                                ? 'checked' : '',
             'description' => esc_html__( 'Check to use debug. Uncheck to disable.', 'media-library-sizer' ),
             'tip'         => esc_attr__( 'Default is OFF. Used to start new debug functions.', 'media-library-sizer' )  
         )
