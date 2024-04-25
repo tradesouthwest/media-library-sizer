@@ -1,0 +1,74 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Media Library Sizer\n"
+"POT-Creation-Date: 2019-12-17 19:05-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Tradesouthwest\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
+"_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/media-library-sizer-theme-admin.php:21
+msgid "Grandchile Options"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:22
+msgid "Grandchild Editor"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:53 inc/media-library-sizer-theme-admin.php:70
+msgid "Style Editor"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:64
+msgid "Enter styles. Please validate"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:65
+msgid "Be sure to check your styles"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:81
+msgid "Enter Priority of this styles script"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:82
+msgid ""
+"10 is default and should allow styles to show last in the head. Raise "
+"number to 11 or 12 if your styles are not taking."
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:88
+msgid "Activate Styles"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:101
+msgid "Check to use styles. Uncheck to diable."
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:102
+msgid ""
+"Default is ON (check). Uncheck to discontinue using styles. Could be used "
+"for theme change."
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:171
+msgid "GrandChild Theme Styles Editor"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:191
+msgid "To validate your work visit"
+msgstr ""
+
+#: inc/media-library-sizer-theme-admin.php:193 inc/media-library-sizer-theme-admin.php:194
+msgid "css-validator.org"
+msgstr ""
