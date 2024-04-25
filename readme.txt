@@ -16,7 +16,7 @@ Customise styles for media library.
 
 == Description ==
 Custom style infuser for admin.
-Opens under Settings > GrandChild Editor 
+Opens under Settings > Media Sizer Editor 
 Provides a low overhead editor to override child theme and parent theme styles.
 
 == Features ==
