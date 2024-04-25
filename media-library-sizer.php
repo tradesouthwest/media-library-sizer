@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {	exit; }
  * @param MEDIA_LIBRARY_SIZER_URL         Base path
  * @since 1.0.0 
  */
-if( !defined( 'MEDIA_LIBRARY_SIZER_VER' )) { define( 'MEDIA_LIBRARY_SIZER_VER', '1.0.01' ); }
+if( !defined( 'MEDIA_LIBRARY_SIZER_VER' )) { define( 'MEDIA_LIBRARY_SIZER_VER', '1.0.0' ); }
 if( !defined( 'MEDIA_LIBRARY_SIZER_URL' )) { define( 'MEDIA_LIBRARY_SIZER_URL', 
     plugin_dir_url(__FILE__)); }
 
