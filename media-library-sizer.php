@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Media Library Sizer
  * Plugin URI:        http://themes.tradesouthwest.com/wordpress/plugins/
- * Description:       Admin pages editor for dev. Opens in Settings > GrandChild Editor
+ * Description:       Admin pages editor for dev. Opens in Settings > Media Sizer Editor
  * Author:            tradesouthwestgmailcom
  * Author URI:        https://tradesouthwest.com
  * Version:           1.0.0
