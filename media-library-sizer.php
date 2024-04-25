@@ -31,7 +31,7 @@ if( !defined( 'MEDIA_LIBRARY_SIZER_URL' )) { define( 'MEDIA_LIBRARY_SIZER_URL',
     // Start the plugin when it is loaded.
     register_activation_hook(   __FILE__, 'media_library_sizer_activation' );
     register_deactivation_hook( __FILE__, 'media_library_sizer_deactivation' );
-  
+    //register_uninstall_hook( __FILE__, 'media_library_sizer_uninstall' );
 /**
  * Activate/deactivate hooks
  * 
@@ -44,6 +44,9 @@ function media_library_sizer_activation()
 function media_library_sizer_deactivation() 
 {
     return false;
+}
+function media_library_sizer_uninstall(){
+	delete_option('media_library_sizer_options');
 }
 /**
  * Define the locale for this plugin for internationalization.
